@@ -1,0 +1,290 @@
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif
+} */
+
+.box{
+  margin-top: 5rem;
+  margin-right: 6rem;
+  text-align:right;
+  margin:5 auto;
+  height:auto;
+  width: auto;
+}
+body {
+  margin: 0 auto
+}
+
+.m-5-auto {
+  margin: 5rem auto
+}
+.wave{
+position:fixed;
+bottom: 0;
+left: 0;
+height: 100%;
+width: 800px;
+
+
+
+}
+
+
+.signin{
+  margin-top: 5rem;
+  margin-right: 5em;
+  font-family: "din";
+  font-size: xx-large;
+ 
+}
+
+.logo{
+  
+ height:10rem;
+
+ margin-top:-3rem;
+}
+.primary-button1 {
+  margin-top: 5rem;
+  margin-left: 20rem;
+  padding: .6rem;
+  width: 10rem;
+  background: #222;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all .5s;
+  cursor: pointer;
+  text-transform: capitalize
+}
+
+.primary-button2 {
+  margin-top: 5rem;
+  margin-left: 20rem;
+  padding: .6rem;
+  width: 10rem;
+  background: #222;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all .5s;
+  cursor: pointer;
+  text-transform: capitalize
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+  color: #000000
+}
+
+.main-title {
+  padding-top: 10rem;
+  margin-left: 38rem;
+  font-size: 1.5rem;
+  font-family: 'din';
+  text-transform: uppercase;
+ 
+}
+
+.main-para {
+  font-size: 2.5rem;
+  text-Transform: capitalize;
+  margin-left: 50rem;
+}
+
+#reg_btn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#reg_btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#reg_btn:hover span {
+padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+  font-weight: 300
+}
+
+form {
+  display: inline-block;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 2rem 0 1rem 0
+}
+
+form label {
+  float: left;
+  font-size: .9rem;
+  margin: 0;
+  padding: 0
+}
+
+.right-label {
+  margin-left: 11rem;
+  float: center;
+  cursor: pointer
+}
+
+input {
+  width: 15rem;
+  padding: .3rem;
+  border-radius: 5px;
+  outline: none;
+  border: none
+}
+
+#sub_btn {
+  display: block;
+  width: 100%;
+  padding: .3rem;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 3rem;
+}
+
+#sub_btn:hover {
+  background: #333;
+  transition: all .5s
+}
+
+
+
+/***    Register Page     ***/
+#checkbox {
+  width: 1rem
+}
+
+form span {
+  font-size: .8rem
+}
+
+#reset_pass_lbl {
+  float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+  color: #222
+}
+.logohp{
+  float: left;
+  margin-left: 3rem;
+  height: 10rem;
+
+}
+.navigationlist{
+ float: left;
+ 
+ margin-top: 5rem;
+
+}
+
+.up{
+  background: #f3f3f3;
+  border-radius: 5rem;
+  margin-left:15rem;
+  height:20rem;
+  width: 80rem;
+
+  
+  
+}
+.down{
+  background: #f3f3f3;
+  border-radius: 5rem;
+  margin-top: 0rem;
+  margin-left: 15rem;
+  height: 24rem;
+  width: 80rem;
+}
+
+
+.logout{
+  margin-left: 3.1rem;
+  padding: .3rem;
+  width: 8rem;
+  margin-top:4rem ;
+  border: outset;
+  background: rgb(207, 202, 202);
+  color: rgb(2, 2, 2);
+  font-size: 1rem;
+  transition: all .5s;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  
+}
+
+
+
+.dashboard{
+  margin-top: -38rem;
+ 
+ margin-left: 1.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+ 
+}
+
+.productlist{
+  
+ 
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.totalorder{
+
+
+ 
+  padding: 1rem;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+}
+.trackorder{
+ 
+  
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.orderbill{
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.navigation{
+  background: #f3f3f3;
+  height: 45.65rem;
+  width: 15rem;
+  
+}
+
+.bg2{
+  height: cover;
+  width: cover;
+}
+
